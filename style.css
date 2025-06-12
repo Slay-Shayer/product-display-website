@@ -49,22 +49,29 @@ strong {
     }
 }
 
+.lists {
+    background-color: rgba(206, 255, 206, 0.7);
+    border-radius: 20px;
+    max-width: 60%;
+}
+
 .lists, .linkups:link, .linkups:visited, .linkups:active {
     justify-content: center;
     position: relative;
     text-align: center;
     display: flex;
     gap: 0.1px;
-    margin: 20px auto; 
+    margin: 20px auto;
     font-size: 100%;
-    margin: 0 auto; 
+    margin: 0 auto;
     text-decoration: none;
     color: black;
+
 }
 
 
 .linkups:hover {
-    color: rgb(70, 228, 70);
+    color: rgb(33, 143, 33);
     font-size: 110%;
 }
 
