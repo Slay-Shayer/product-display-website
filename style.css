@@ -1,0 +1,238 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: "Domine", serif;
+    letter-spacing: 0.1em;
+}
+
+
+
+
+.logo {
+    justify-content: center;
+    text-align: center;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    font-size: 200%;
+    z-index: 1;
+    letter-spacing: 0.7em;
+    animation: logocolor 5s ease-in-out alternate infinite;
+}
+
+.title-desc {
+    color: black;
+    animation: logocolor;
+    -webkit-animation: logocolor 5s ease-in-out alternate infinite;
+    text-align: center;
+    font-size: 150%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+strong {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+}
+
+@keyframes logocolor {
+    0% {
+        color: rgb(0, 185, 0);
+    }
+    100% {
+        color: rgb(70, 228, 70);
+    }
+}
+
+.lists, .linkups:link, .linkups:visited, .linkups:active {
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    display: flex;
+    gap: 0.1px;
+    margin: 20px auto; 
+    font-size: 100%;
+    margin: 0 auto; 
+    text-decoration: none;
+    color: black;
+}
+
+
+.linkups:hover {
+    color: rgb(70, 228, 70);
+    font-size: 110%;
+}
+
+
+.titlepic {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    justify-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+
+#mint, #cola, #shake, #soda {
+    height: 70vh;
+    width: 150vh;
+    background: linear-gradient(135deg, rgb(162, 255, 162, 0.2), rgb(230, 255, 247, 0.2));
+    border: 1px solid rgb(209, 209, 209, 0.2);
+    margin: 50px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: -2px 2px 2px rgb(0, 155, 0, 0.5);
+}
+
+
+#cola {
+    box-shadow: -2px 2px 2px rgba(52, 41, 114, 0.5);
+}
+
+#soda {
+    box-shadow: -2px 2px 2px rgba(231, 149, 55, 0.5);
+}
+
+#shake {
+    box-shadow: -2px 2px 2px rgb(34, 34, 34, 0.5);
+}
+
+#mint{
+    box-shadow: -2px 2px 2px rgb(0, 155, 0, 0.5);
+}
+
+#shake .product{
+    animation: shake 3s ease-in-out alternate infinite;
+    -webkit-animation: shake 3s ease-in-out alternate infinite;
+}
+
+#mint .product {
+    animation: mint 3s ease-in-out alternate infinite;
+    -webkit-animation: mint 3s ease-in-out alternate infinite;
+}
+
+
+#cola .product {
+    animation: cola 3s ease-in-out alternate infinite;
+    -webkit-animation: cola 3s ease-in-out alternate infinite;
+}
+
+
+#soda .product {
+    animation: soda 3s ease-in-out alternate infinite;
+    -webkit-animation: soda 3s ease-in-out alternate infinite;
+}
+
+
+
+
+
+.deets {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left; 
+}
+
+
+.product:nth-child(odd) {
+    text-align: left;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 200%;
+    letter-spacing: 1em;
+}
+
+
+@keyframes mint{
+        0% {
+        color: rgb(0, 185, 0);
+    }
+    100% {
+        color: rgb(70, 228, 70);
+    }
+}
+
+
+@keyframes soda{
+        0% {
+        color: rgb(255, 116, 52);
+    }
+    100% {
+        color: rgb(255, 179, 108);
+    }
+}
+
+
+@keyframes cola{
+        0% {
+        color: rgb(127, 78, 160);
+    }
+    100% {
+        color: rgb(177, 123, 174);
+    }
+}
+
+
+@keyframes shake{
+        0% {
+        color: rgb(34, 34, 34);
+    }
+    100% {
+        color: rgb(167, 145, 121);
+    }
+}
+
+.dess:nth-child(odd) {
+    text-align: left;
+
+}
+
+.productpic {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+.newprice {
+    font-size: 200%;
+    font-family: "Domine", serif;
+}
+
+.oldprice {
+    text-decoration: line-through;
+    font-family: "Domine", serif;
+    padding-left: 30px;
+    opacity: 0.6;
+    transform: translate(65px,-55px);
+    -webkit-transform: translate(65px,-55px);
+    -moz-transform: translate(65px,-55px);
+    -ms-transform: translate(65px,-55px);
+    -o-transform: translate(65px,-55px);
+}
