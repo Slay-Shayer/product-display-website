@@ -51,8 +51,8 @@ strong {
 
 .lists {
     background-color: rgba(206, 255, 206, 0.7);
-    border-radius: 20px;
-    max-width: 60%;
+    border-radius: 30px;
+    max-width: 30%;
     gap: 5px;
 }
 
