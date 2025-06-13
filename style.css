@@ -347,3 +347,100 @@ strong {
         text-align: center;
     }
 }
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 90%;
+        letter-spacing: 0.08em;
+    }
+
+    .logo {
+        font-size: 175%;
+        letter-spacing: 0.6em;
+        margin-top: 30px;
+    }
+
+    .title-desc {
+        font-size: 120%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .lists {
+        max-width: 80%;
+        border-radius: 15px;
+        padding: 15px 0;
+    }
+
+    .lists, .linkups:link, .linkups:visited, .linkups:active {
+        flex-direction: row; /* Keep links in a row for tablets */
+        gap: 20px;
+        margin: 15px auto;
+        font-size: 95%;
+    }
+
+    .linkups:hover {
+        font-size: 105%;
+    }
+
+    .titlepic {
+        max-width: 60%;
+        padding: 15px;
+        margin: 40px auto;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+
+    #mint, #cola, #shake, #soda {
+        height: 60vh; /* Slightly reduce height for tablets */
+        width: 90%; /* Take up more width */
+        padding: 30px;
+        margin: 40px auto;
+        flex-direction: row; /* Keep content side-by-side if preferred for tablets */
+        text-align: left; /* Keep original text alignment */
+    }
+
+    .deets {
+        padding-right: 20px;
+        padding-bottom: 0;
+        text-align: left;
+    }
+
+    .product:nth-child(odd) {
+        font-size: 180%;
+        letter-spacing: 0.8em;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .productpic {
+        max-width: 40%; /* Adjust image size for tablets */
+        margin: 0; /* Align image to the right/left in flex */
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+    .newprice {
+        font-size: 180%;
+    }
+
+    .oldprice {
+        font-size: 95%;
+        padding-left: 30px; /* Restore padding if needed */
+        transform: translate(65px,-55px); /* Restore original transform */
+        text-align: left; /* Restore original text alignment */
+        margin-top: 0; /* Remove negative margin-top */
+    }
+
+    .dess {
+        text-align: left;
+    }
+}
