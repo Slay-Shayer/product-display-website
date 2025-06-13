@@ -269,7 +269,9 @@ strong {
     .lists {
         max-width: 55%; 
         border-radius: 10px; 
-        padding: 10px 0; 
+        padding: 10px;
+        display: flex;
+        
     }
 
     .lists, .linkups:link, .linkups:visited, .linkups:active {
