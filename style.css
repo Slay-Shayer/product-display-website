@@ -243,3 +243,103 @@ strong {
     -ms-transform: translate(65px,-55px);
     -o-transform: translate(65px,-55px);
 }
+
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 85%;
+        letter-spacing: 0.05em;
+    }
+
+    .logo {
+        font-size: 150%; 
+        letter-spacing: 0.5em;
+        margin-top: 20px;
+    }
+
+    .title-desc {
+        font-size: 100%; 
+        margin-left: 20px; 
+        margin-right: 20px;
+    }
+
+    .lists {
+        max-width: 95%; 
+        border-radius: 10px; 
+        padding: 10px 0; 
+    }
+
+    .lists, .linkups:link, .linkups:visited, .linkups:active {
+        flex-direction: column; 
+        gap: 10px; 
+        margin: 10px auto; 
+        font-size: 90%; 
+    }
+
+    .linkups:hover {
+        font-size: 95%; 
+    }
+
+    .titlepic {
+        max-width: 80%; 
+        padding: 10px;
+        margin: 30px auto; 
+        border-radius: 20px; 
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    
+    #mint, #cola, #shake, #soda {
+        height: auto; 
+        width: 90%; 
+        padding: 20px; 
+        margin: 30px auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .deets {
+        padding-right: 0; 
+        padding-bottom: 20px; 
+        text-align: center; 
+    }
+
+    .product:nth-child(odd) {
+        font-size: 150%; 
+        letter-spacing: 0.5em;
+        text-align: center; 
+        margin-bottom: 10px; 
+    }
+
+    .productpic {
+        max-width: 60%;
+        margin: 0 auto; 
+        border-radius: 25px; 
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+
+    .newprice {
+        font-size: 150%; 
+    }
+
+    .oldprice {
+        font-size: 90%; 
+        padding-left: 0; 
+        transform: none; 
+        text-align: center; 
+        margin-top: -15px; 
+    }
+
+    
+    .dess {
+        text-align: center;
+    }
+}
