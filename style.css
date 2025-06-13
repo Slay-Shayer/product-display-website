@@ -53,6 +53,7 @@ strong {
     background-color: rgba(206, 255, 206, 0.7);
     border-radius: 20px;
     max-width: 60%;
+    gap: 5px;
 }
 
 .lists, .linkups:link, .linkups:visited, .linkups:active {
