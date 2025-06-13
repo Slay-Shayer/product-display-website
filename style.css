@@ -52,8 +52,7 @@ strong {
 .lists {
     background-color: rgba(206, 255, 206, 0.7);
     border-radius: 30px;
-    max-width: 30%;
-    gap: 5px;
+    max-width: 50%;
 }
 
 .lists, .linkups:link, .linkups:visited, .linkups:active {
@@ -275,7 +274,7 @@ strong {
     }
 
     .lists, .linkups:link, .linkups:visited, .linkups:active {
-        flex-direction: column; 
+        flex-direction: block; 
         gap: 10px; 
         margin: 10px auto; 
         font-size: 90%; 
@@ -304,6 +303,8 @@ strong {
         margin: 30px auto;
         flex-direction: column;
         text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .deets {
